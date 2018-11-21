@@ -107,7 +107,7 @@ echo 'mailer erreo'.$mail->ErrorInfo;
 
 
 } catch (phpmailerException $e) {
-	echo $e->errorMessage();
+	 $e->errorMessage();
 }
 
 ?>
