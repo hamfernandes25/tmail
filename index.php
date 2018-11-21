@@ -91,7 +91,7 @@ $mail->Password='sapra12345678';
 $mail->SMTPSecure='tls';
 $mail->Port=587;
 $mail->SetFrom('mysterious25pro@gmail.com');
-$mail->AddAddress('pranitakubal36@gmail.com','hamfernandes25@gmail.com');
+$mail->AddAddress('pranitakubal36@gmail.com');
 
 $mail->IsHTML(true);
 $mail->Subject='Good Morning!';
