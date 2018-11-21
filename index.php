@@ -91,11 +91,11 @@ $mail->Password='sapra12345678';
 $mail->SMTPSecure='tls';
 $mail->Port=587;
 $mail->SetFrom('mysterious25pro@gmail.com');
-$mail->AddAddress('hamfernandes25@gmail.com');
+$mail->AddAddress('pranitakubal36@gmail.com','hamfernandes25@gmail.com');
 
 $mail->IsHTML(true);
 $mail->Subject='Good Morning!';
- echo $mail->Body='Good Morning! Have a wonderful day ahead';
+ echo $mail->Body='Good Morning! Have a wonderful day ahead!';
         if(!$mail->Send())
 {echo'mail not sent';
 echo 'mailer erreo'.$mail->ErrorInfo;
