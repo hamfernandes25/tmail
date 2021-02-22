@@ -130,7 +130,7 @@ $mail->isSMTP();
 $mail->Host='smtp.gmail.com';
 $mail->SMTPAuth=true;
  $mail->Username='mysterious21pr@gmail.com';
-$mail->Password='sapra12345678';
+$mail->Password='1234567';
 
 $mail->SMTPSecure='tls';
 $mail->Port=587;
